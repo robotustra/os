@@ -1,0 +1,1 @@
+http://rus-linux.net/MyLDP/kernel/toyos/sozdaem-unix-like-os-01.html
