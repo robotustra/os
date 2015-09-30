@@ -3,7 +3,7 @@
 # Единственное, что нужно изменить, это указать правила обработки 
 # ассемблера, поскольку мы используем nasm вместо GNU as.
 
-SOURCES=boot.o main.o
+SOURCES=boot.o common.o monitor.o main.o
 CFLAGS=-nostdlib -nostdinc -fno-builtin -fno-stack-protector -m32
 
 LDFLAGS=-Tlink.ld -melf_i386

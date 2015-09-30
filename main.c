@@ -3,7 +3,9 @@
 
 int main(struct multiboot *mboot_ptr)
 {
-  // Здесь должны находиться все вызовы инициализационных процедур.
+ 	// Здесь должны находиться все вызовы инициализационных процедур.
+	monitor_clear();
+	monitor_write("Hello, world!");
 	return 0xDEADBEAF;
 } 
 
